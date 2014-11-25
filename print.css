@@ -1,0 +1,31 @@
+/**
+ * Angaben zum Ausdruck von Postings
+ * 
+ * @author: Heiko August <post@auge8472.de>
+ * @version: 0.1
+/*
+
+/* grundlegende Angaben zum Ausdruck eines Einzelpostings */
+
+@media print {
+	body {
+		font-size: 1rem;
+	}
+	#top,
+	#kopf,
+	#nachricht-lesen,
+	.nachricht-section h3 img,
+	.nachricht-beantworten,
+	p.fachlich-hilfreich,
+	#bedienungshilfe,
+	form,
+	#bottom {
+		display: none;
+	}
+	.nachricht-section,
+	.fachlich-hilfreich p.nachricht-text,
+	.nachricht-text {
+		border: none;
+		background: transparent;
+	}
+}
