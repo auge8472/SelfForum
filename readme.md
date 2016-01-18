@@ -12,6 +12,7 @@ Das Repository ist ein Platz zum sammeln von Code. Die Code-Stücke sind nicht u
 
 - `print.css`: Ein rudimentäres CSS-Regelset zum Ausdruck von Forenbeiträgen.
 - `selfforum.js`: Javascript-Funktionen zum Anzeigen des nächsten Reloads der Forumsübersichten. Der Reload selbst kann in den Benutzereinstellungen konfiguriert werden.
+- `selfhtml.xml`: OpenSearch-Suchplugin für die Suche im SelfHTML-Forum.
 
 ## My collected files for the SelfHTML-Forum
 
@@ -25,3 +26,4 @@ The repository is a place to collect code. The code-fragments may not be ready f
 
 - `print.css`: A rudimentary set of CSS-rules for printing forum entries.
 - `selfforum.js`: Javascript-functions to display the time of the next reload of the overview page of the individual forums. The configuration of the reload itself is done in the user settings.
+- `selfhtml.xml`: OpenSearch plugin for the search in the SelfHTML-forum.

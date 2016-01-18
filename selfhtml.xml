@@ -1,0 +1,7 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+ <os:ShortName>SelfHTML-Forum</os:ShortName>
+ <os:Description>durchsuche das SelfHTML-Forum</os:Description>
+ <os:InputEncoding>UTF-8</os:InputEncoding>
+ <SearchForm>https://forum.selfhtml.org/search</SearchForm>
+ <os:Url type="text/html" method="GET" template="https://forum.selfhtml.org/search?utf8=%E2%9C%93&amp;term={searchTerms}#results"></os:Url>
+</SearchPlugin>
