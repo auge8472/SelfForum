@@ -2,6 +2,7 @@
  <os:ShortName>SelfHTML-Forum</os:ShortName>
  <os:Description>durchsuche das SelfHTML-Forum</os:Description>
  <os:InputEncoding>UTF-8</os:InputEncoding>
+ <os:Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABYlBMVEUAAAAkd6IoeaMqeaUqeqQqeqUre6Use6Qse6Use6Yte6UufKYufacxfqcxfqg1gKk1gak2gao4gas3gqo4gqo4gqs6gqs6gqw5g6s6g6s6hKs6hKw7hKw9hq0+hq0/h65Dia9EirBHjLFMj7NPkLRQkrVfm7tpor9xpsPZmwB4q8bcpQzdpQ3cpg/cphDdphDdphHdpxLdqBXeqBXdqRfeqRfeqRjeqRnfqhuFs8vfqxzfqx/erCDfrCDfrCHfrCLfrSHfrSLhsCzhsS6Tu9HjtzzkuULlu0flvErmvUylx9mnx9rpxWTpxmfpxmjqx2nqyGyyzt630uHszn3v1Y7F2+fx2p3y3abV5O3W5u7Z5+/36cX36sb36sfn8PX58Nb58Nj68dnt9Pfu9fj69OD79OHw9fn89uj89+n3+vv9+vD6+/3++/X+/fn9/v7+/v7+/v///v3//v7+//////7///83MA+dAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAADjSURBVBjTY2AQ41MMLIWCAD0GBiFe1aTSYqhAtL4jgwxrKEy+pDQWKCAqmw1k5yYkpmSVlgYb2DHwq5Tml5aGaWqbOTo7mdjaMggol+aVlmaEuFno6JrbAwUk+ZNBuktL08N9rMzsbBmkWVzABhYBiXhXYzsGCREeyzggpwBkdao5UEBCkk1G3SsKpKyw1MOUQUJSmJuDlYlLwbu0uKTUz4BBQlBeQ01JTopRq7SgpNTXkEGGOQioODMtqQCkxdOUQYYzojS/AOr0HGtbBnHOSLhXSv31HRgY2C1hnotxN7JhAACdCFANteNPnwAAAABJRU5ErkJggg==</os:Image>
  <SearchForm>https://forum.selfhtml.org/search</SearchForm>
  <os:Url type="text/html" method="GET" template="https://forum.selfhtml.org/search?utf8=%E2%9C%93&amp;term={searchTerms}#results"></os:Url>
 </SearchPlugin>
