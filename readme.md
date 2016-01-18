@@ -10,7 +10,7 @@ Die Software des Forums des Projekts [SelfHTML](https://selfhtml.org/) namens [c
 
 Das Repository ist ein Platz zum sammeln von Code. Die Code-Stücke sind nicht unbedingt sofort einsatzbereit, sondern eher zum zusammenkopieren mit anderem Code in eigene Dateien gedacht.
 
-- `print.css`: Rudimentäre CSS-Regeln zum Ausdruck von Forenbeiträgen.
+- `print.css`: Ein rudimentäres CSS-Regelset zum Ausdruck von Forenbeiträgen.
 - `selfforum.js`: Javascript-Funktionen zum Anzeigen des nächsten Reloads der Forumsübersichten. Der Reload selbst kann in den Benutzereinstellungen konfiguriert werden.
 
 ## My collected files for the SelfHTML-Forum
@@ -23,5 +23,5 @@ The software of the project named [SelfHTML](https://selfhtml.org/), called [cfo
 
 The repository is a place to collect code. The code-fragments may not be ready for use. Copy the required fragments from my fragments and include them into your code files.
 
-- `print.css`: Rudimentary CSS-rules for printig forum entries.
+- `print.css`: A rudimentary set of CSS-rules for printing forum entries.
 - `selfforum.js`: Javascript-functions to display the time of the next reload of the overview page of the individual forums. The configuration of the reload itself is done in the user settings.
