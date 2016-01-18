@@ -31,7 +31,12 @@ function addReloadTime() {
 		paragraph.setAttributeNode(attribute);
 		paragraph.appendChild(output);
 		// hänge das Element in das Dokument (jeweilige Forumsübersicht) ein.
-		document.getElementById('kopf').appendChild(paragraph);
+		var elemList = document.getElementsByClassName("page-header");
+		if (elemList.length = 1) {
+			// das Element soll nur dann in das Dokument eingefügt werden, 
+			// wenn es ein einziges Element mit der Klasse "page-header" gibt.
+			elemList[0].appendChild(paragraph);
+		}
 	} else {
 		// Es gibt ein Element mit der ID "threads-index", Übersichtsseite == FALSE
 		return false;
