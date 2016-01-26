@@ -12,6 +12,9 @@ $(document).ready(function(){
   
   $('.forum-links .print').click(function( event ){
     $(this).parents('.thread-message').toggleClass('print');
+    if ($(this).parents('.thread-message').hasClass('print')) {
+      window.print();
+    }
     event.preventDefault();
   })
 })
