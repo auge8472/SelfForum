@@ -11,7 +11,7 @@ $(document).ready(function(){
   $('.forum-links nav ul').append(' <li><a href="" class="print">print</a></li>');
   
   $('.forum-links .print').click(function( event ){
-    $(this).parents('.thread-message').addClass('print');
+    $(this).parents('.thread-message').toggleClass('print');
     event.preventDefault();
   })
 })
