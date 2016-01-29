@@ -48,6 +48,12 @@
 	.cf-tags-list::before {
 		content: 'Tags: ';
 	}
+	.cf-tag {
+		border: none;
+		background: transparent;
+		margin-left: 0;
+		padding: 0.1em 0.1em 0;
+	}
 	.answers {
 		padding: 0;
 	}
