@@ -57,6 +57,12 @@
 	.cf-tag:not(:last-child)::after {
 		content: ', ';
 	}
+	.problematic-site {
+		border: none;
+		border-bottom: 1pt dotted #222;
+		margin: 0.25em 0 0 0;
+		padding: 0 0 0.25em 0;
+	}
 	.answers {
 		padding: 0;
 	}
