@@ -45,6 +45,9 @@
 	header .details .cf-tags-list {
 		display: block;
 	}
+	.cf-tags-list::before {
+		content: 'Tags: ';
+	}
 	.answers {
 		padding: 0;
 	}
