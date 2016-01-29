@@ -69,6 +69,12 @@
 	.problematic-site a::after {
 		content: ': ' attr(href);
 	}
+	.thread-message .accepted {
+		border-bottom: 1pt dotted;
+		border-top: 1pt dotted;
+		margin: 0.5em 0 0 0;
+		padding: 0.25em 0;
+	}
 	.answers {
 		padding: 0;
 	}
