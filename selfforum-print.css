@@ -63,6 +63,12 @@
 		margin: 0.25em 0 0 0;
 		padding: 0 0 0.25em 0;
 	}
+	.problematic-site a::before {
+		content: '';
+	}
+	.problematic-site a::after {
+		content: ': ' attr(href);
+	}
 	.answers {
 		padding: 0;
 	}
