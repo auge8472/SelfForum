@@ -2,7 +2,8 @@
  * Angaben zum Ausdruck von Postings
  * 
  * @author: Heiko August <post@auge8472.de>
- * @version: 0.1
+ * @author: Matthias Apsel
+ * @version: 0.2
 /*
 
 /* grundlegende Angaben zum Ausdruck eines Einzelpostings */
@@ -11,21 +12,34 @@
 	body {
 		font-size: 1rem;
 	}
-	#top,
-	#kopf,
-	#nachricht-lesen,
-	.nachricht-section h3 img,
-	.nachricht-beantworten,
-	p.fachlich-hilfreich,
-	#bedienungshilfe,
-	form,
-	#bottom {
+	main ~ .flex-item,
+	footer,
+	#fixlink,
+	h1,
+	#content > h2,
+	#message-nested .thread-message:not(.print),
+	.thread-message > .voting,
+	.message-links,
+	.forum-links,
+	.root,
+	#unfold-all {
 		display: none;
 	}
-	.nachricht-section,
-	.fachlich-hilfreich p.nachricht-text,
-	.nachricht-text {
-		border: none;
+	main {
+		padding: 0;
+	}
+	.thread-message {
 		background: transparent;
+		border: none;
+		max-width: none;
+		width: auto;
+	}
+	.thread-message .posting-content {
+		background: transparent;
+		color: black;
+		border: none;
+	}
+	.answers {
+		padding: 0;
 	}
 }
