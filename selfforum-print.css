@@ -42,6 +42,9 @@
 		color: black;
 		border: none;
 	}
+	header .details .cf-tags-list {
+		display: block;
+	}
 	.answers {
 		padding: 0;
 	}
