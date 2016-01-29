@@ -22,6 +22,8 @@
 	.message-links,
 	.forum-links,
 	.root,
+	.author-email,
+	.versions,
 	#unfold-all {
 		display: none;
 	}
