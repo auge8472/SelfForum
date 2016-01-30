@@ -75,3 +75,12 @@
 		padding: 0;
 	}
 }
+
+@media not print {
+	.print-preview footer,
+	.print-preview div.root,
+	.print-preview .forum-links li:not(:last-child),
+	.print-preview .message-links {
+		opacity: 0.25;
+	}
+}
