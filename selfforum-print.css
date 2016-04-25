@@ -77,6 +77,11 @@
 }
 
 @media not print {
+	.print-preview header.top,
+	.print-preview .personallinks,
+	.print-preview header.page-header,
+	.print-preview main h1,
+	.print-preview #content > h2,
 	.print-preview footer,
 	.print-preview div.root,
 	.print-preview .forum-links li:not(:last-child),
