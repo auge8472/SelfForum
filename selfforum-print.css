@@ -50,6 +50,9 @@
 		color: black;
 		border: none;
 	}
+	.thread-nested ol {
+    		padding-left: 0;
+	}
 	header .details .cf-tags-list {
 		display: block;
 	}
