@@ -30,6 +30,11 @@
 	#unfold-all {
 		display: none;
 	}
+	.flex-container, 
+        article.thread-nested,
+        article.thread-message {
+                display: block;
+        }
 	main {
 		padding: 0;
 	}
