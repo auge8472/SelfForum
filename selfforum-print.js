@@ -16,7 +16,7 @@ $(document).ready(function(){
       $(this).text('Druckansicht verlassen');
       window.print();
     } else {
-      $(this).text('Posting drucken');
+      $(this).text('Beitrag drucken');
     }
     event.preventDefault();
   })
