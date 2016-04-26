@@ -94,7 +94,7 @@
 	.print-preview .message-links,
         .print-preview .message-links + h3,
 	.print-preview .message-references,
-        #message-nested.print-preview .thread-message:not(.print) {
+        .print-preview .thread-message:not(.print) {
 		opacity: 0.25;
 	}
 }
