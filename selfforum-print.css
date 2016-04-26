@@ -93,6 +93,7 @@
 	.print-preview .forum-links li:not(:last-child),
 	.print-preview .message-links,
         .print-preview .message-links + h3,
+        .print-preview .accepted,
 	.print-preview .message-references,
         .print-preview .thread-message:not(.print) {
 		opacity: 0.25;
