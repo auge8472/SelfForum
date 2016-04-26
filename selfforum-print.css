@@ -25,6 +25,7 @@
 	.author-email,
 	.author-homepage,
 	.versions,
+        .message-links + h3,
 	.message-references,
 	.thread-message .accepted,
 	#unfold-all {
@@ -90,7 +91,10 @@
 	.print-preview footer,
 	.print-preview div.root,
 	.print-preview .forum-links li:not(:last-child),
-	.print-preview .message-links {
+	.print-preview .message-links,
+        .print-preview .message-links + h3,
+	.print-preview .message-references,
+        #message-nested.print-preview .thread-message:not(.print) {
 		opacity: 0.25;
 	}
 }
