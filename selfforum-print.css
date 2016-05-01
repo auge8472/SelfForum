@@ -25,16 +25,17 @@
 	.author-email,
 	.author-homepage,
 	.versions,
+	.message-links + h3,
 	.message-references,
 	.thread-message .accepted,
 	#unfold-all {
 		display: none;
 	}
 	.flex-container, 
-        article.thread-nested,
-        article.thread-message {
-                display: block;
-        }
+		article.thread-nested,
+		article.thread-message {
+		display: block;
+	}
 	main {
 		padding: 0;
 	}
@@ -48,6 +49,9 @@
 		background: transparent;
 		color: black;
 		border: none;
+	}
+	.thread-nested ol {
+		padding-left: 0;
 	}
 	header .details .cf-tags-list {
 		display: block;
@@ -90,7 +94,11 @@
 	.print-preview footer,
 	.print-preview div.root,
 	.print-preview .forum-links li:not(:last-child),
-	.print-preview .message-links {
+	.print-preview .message-links,
+	.print-preview .message-links + h3,
+	.print-preview .accepted,
+	.print-preview .message-references,
+	.print-preview .thread-message:not(.print) {
 		opacity: 0.25;
 	}
 }
