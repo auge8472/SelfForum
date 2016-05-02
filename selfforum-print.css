@@ -17,7 +17,7 @@
 	#fixlink,
 	h1,
 	#content > h2,
-	#message-nested .thread-message:not(.print),
+	.thread-message:not(.print),
 	.thread-message > .voting,
 	.message-links,
 	.forum-links,
