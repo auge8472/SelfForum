@@ -91,6 +91,7 @@
 	.print-preview #content > h2,
 	.print-preview footer,
 	.print-preview div.root,
+	.print-preview .thread-message > .voting,
 	.print-preview .forum-links li:not(:last-child),
 	.print-preview .message-links,
 	.print-preview .message-links + h3,
