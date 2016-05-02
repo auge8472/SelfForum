@@ -32,8 +32,8 @@
 		display: none;
 	}
 	.flex-container, 
-		article.thread-nested,
-		article.thread-message {
+	article.thread-nested,
+	article.thread-message {
 		display: block;
 	}
 	main {
