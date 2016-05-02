@@ -31,6 +31,7 @@
 	#unfold-all {
 		display: none;
 	}
+	header .details .cf-tags-list,
 	.flex-container, 
 	article.thread-nested,
 	article.thread-message {
@@ -52,9 +53,6 @@
 	}
 	.thread-nested ol {
 		padding-left: 0;
-	}
-	header .details .cf-tags-list {
-		display: block;
 	}
 	.cf-tags-list::before {
 		content: 'Tags: ';
