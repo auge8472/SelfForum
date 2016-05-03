@@ -8,6 +8,17 @@
 
 /* grundlegende Angaben zum Ausdruck eines Einzelpostings */
 
+.printfootnote {
+	font-size: 66.6%;
+}
+.printfootnoteurls {
+	margin: 1em 0;
+	padding: 0 0 0 1.25em;
+}
+.printfootnoteurls li {
+	list-style: circle;
+}
+
 @media print {
 	body {
 		font-size: 1rem;
