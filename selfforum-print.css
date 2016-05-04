@@ -18,6 +18,9 @@
 .printfootnoteurls li {
 	list-style: circle;
 }
+.print-preview .thread-message.print .posting-content a {
+	color: inherit;
+}
 
 @media print {
 	body {
