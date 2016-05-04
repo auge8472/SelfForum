@@ -97,9 +97,7 @@
 	}
 	hr {
 		border: 0;
-		height: 1pt;
-		color: #000;
-		background-color: #000;
+		border-bottom: 1pt solid #000;
 	}
 }
 
