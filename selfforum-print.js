@@ -14,7 +14,7 @@ $(document).ready(function(){
 		$('body').toggleClass('print-preview');
 		if ($(this).parents('.thread-message').hasClass('print')){
 			var i = 0;
-			$('.print .posting-content').append('<ul class="printfootnoteurls"></ul>');
+			$('.print .posting-content').append('<hr class="printfootnotes"><ul class="printfootnoteurls"></ul>');
 			$('.print .posting-content a').each(function(){
 				i++;
 				$(this).after('<sup class="printfootnote">[L'+i+']</sup>');
@@ -23,7 +23,7 @@ $(document).ready(function(){
 			$(this).text('Druckansicht verlassen');
 			window.print();
 		} else {
-			$('.printfootnoteurls, .printfootnote').remove();
+			$('.printfootnotes, .printfootnoteurls, .printfootnote').remove();
 			$(this).text('Beitrag drucken');
 		}
 		event.preventDefault();
