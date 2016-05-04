@@ -13,10 +13,10 @@
 }
 .printfootnoteurls {
 	margin: 1em 0;
-	padding: 0 0 0 1.25em;
+	padding: 0;
 }
 .printfootnoteurls li {
-	list-style: circle;
+	list-style: none;
 }
 .print-preview .thread-message.print .posting-content a {
 	color: inherit;

@@ -18,7 +18,7 @@ $(document).ready(function(){
 			$('.print .posting-content a').each(function(){
 				i++;
 				$(this).after('<sup class="printfootnote">[L'+i+']</sup>');
-				$('.printfootnoteurls').append('<li>[L'+i+'] URL: '+this.href+'</li>');
+				$('.printfootnoteurls').append('<li><sup class="printfootnote">[L'+i+']</sup> URL: '+this.href+'</li>');
 			});
 			$(this).text('Druckansicht verlassen');
 			window.print();
