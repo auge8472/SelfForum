@@ -13,13 +13,18 @@ $(document).ready(function(){
 		$(this).parents('.thread-message').toggleClass('print');
 		$('body').toggleClass('print-preview');
 		if ($(this).parents('.thread-message').hasClass('print')){
-			var i = 0;
-			$('.print .posting-content').append('<hr class="printfootnotes"><ul class="printfootnoteurls"></ul>');
-			$('.print .posting-content a').each(function(){
-				i++;
-				$(this).after('<sup class="printfootnote">[L'+i+']</sup>');
-				$('.printfootnoteurls').append('<li><sup class="printfootnote">[L'+i+']</sup> URL: '+this.href+'</li>');
+			var i = 0, $list = '<hr class="printfootnotes"><ul class="printfootnoteurls"></ul>', $notes = '';
+			$('.print .posting-content a:not(.mention)').each(function(){
+				if(this.href != this.text && this.href != this.text+"/") {
+					i++;
+					$(this).after('<sup class="printfootnote">[L'+i+']</sup>');
+					$notes += '<li><sup class="printfootnote">[L'+i+']: </sup> URL: ' + this.href + '</li>';
+				}
 			});
+			if (i > 0) {
+				$('.print .posting-content').append($list);
+				$('.printfootnoteurls').append($notes);
+			}
 			$(this).text('Druckansicht verlassen');
 			window.print();
 		} else {
