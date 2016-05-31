@@ -18,6 +18,8 @@ Das Repository ist ein Platz zum sammeln von Code. Die Code-Stücke sind nicht u
 	- … den systemeigenen Druckdialog aufruft,
 	- … den Text des Druckbuttons je nach Status umschaltet.
 	- **Achtung:** Die Funktion ist obsolet, da sie mittlerweile in das cforum, mit dem das SelfForum betrieben wird, überführt wurde. ***Bitte nicht mehr im User-JS einsetzen.***
+- `selfforum-settingsmenu.css`: Formatierung der mit `selfforum-settingsmenu.js` generierten Linkliste. Die allgemeinen Formatierungsregeln des SelfForums für `nav ul` werden mitbenutzt und durch die hiesigen Regeln erweitert.
+- `selfforum-settingsmenu.js`: Generiert für die Seite „Einstellungen“ ein Menü mit Links zu den Abschnitten des Formulars, die durch die Fieldsets definiert werden.
 - `selfforum.js`: Javascript-Funktionen zum Anzeigen des nächsten Reloads der Forumsübersichten. Der Reload selbst kann in den Benutzereinstellungen konfiguriert werden.
 - `selfhtml.xml`: OpenSearch-Suchplugin für die Suche im SelfHTML-Forum.
 
