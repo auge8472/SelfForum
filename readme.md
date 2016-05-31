@@ -11,11 +11,13 @@ Die Software des Forums des Projekts [SelfHTML](https://selfhtml.org/) namens [c
 Das Repository ist ein Platz zum sammeln von Code. Die Code-Stücke sind nicht unbedingt sofort einsatzbereit, sondern eher zum zusammenkopieren mit anderem Code in eigene Dateien gedacht.
 
 - `print.css`: Ein rudimentäres CSS-Regelset zum Ausdruck von Forenbeiträgen.
+	- **Achtung:** Die Funktion ist obsolet, da sie mittlerweile in das cforum, mit dem das SelfForum betrieben wird, überführt wurde. ***Bitte nicht mehr im User-CSS einsetzen.***
 - `selfforum-print.js`: Eine JavaScript-Funktion, die …
 	- … die untere der Button-Leisten unterhalb eines Postings um einen Druck-Button ergänzt,
 	- … die Seitenelemente, die nicht zum Ausdruck gehören werden, abblendet,
 	- … den systemeigenen Druckdialog aufruft,
 	- … den Text des Druckbuttons je nach Status umschaltet.
+	- **Achtung:** Die Funktion ist obsolet, da sie mittlerweile in das cforum, mit dem das SelfForum betrieben wird, überführt wurde. ***Bitte nicht mehr im User-JS einsetzen.***
 - `selfforum.js`: Javascript-Funktionen zum Anzeigen des nächsten Reloads der Forumsübersichten. Der Reload selbst kann in den Benutzereinstellungen konfiguriert werden.
 - `selfhtml.xml`: OpenSearch-Suchplugin für die Suche im SelfHTML-Forum.
 
