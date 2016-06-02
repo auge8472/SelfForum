@@ -13,4 +13,9 @@ $(document).ready(function(){
 		targets += '<li><a href="#' + this.id + '">' + $(this).children('legend').text() + '</a></li>';
 	})
 	$('.tabswitcher').append(targets)
+	$('.tabswitcher li a').on('click', function(){
+		if ($('#user-data').hasClass('active')) {
+			$('#user-data').removeClass('active');
+		}
+	});
 })

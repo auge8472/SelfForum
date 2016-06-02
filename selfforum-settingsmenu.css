@@ -9,7 +9,7 @@
 .tabswitcher li {
 	margin-right: 0.3em;
 }
-#users-edit fieldset {
+#users-edit fieldset:not(.active) {
 	display: none;
 }
 #users-edit fieldset:target {
