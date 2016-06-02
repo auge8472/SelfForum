@@ -10,3 +10,9 @@
 .tabswitcher li {
 	margin-right: 0.3em;
 }
+#users-edit fieldset {
+	display: none;
+}
+#users-edit fieldset:target {
+	display: block;
+}
